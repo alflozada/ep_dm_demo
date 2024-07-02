@@ -1,0 +1,60 @@
+{
+    "name": "ep_dm_demo",
+    "version": "0.0.1",
+    "description": "plugin para generar una demo",
+    "author": {
+        "name": "Luis Lozada",
+        "email": "<alflozada21@gmail.com>",
+        "github": "https://github.com/alflozada"
+    },
+    "contributors": [
+        ""
+    ],
+    "keywords": [
+        "etherpad",
+        "plugin",
+        "ep"
+    ],
+    "license": "Apache-2.0+",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alflozada/ep_dm_demo.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alflozada/ep_dm_demo/issues"
+    },
+    "homepage": {
+        "url": "https://github.com/alflozada/ep_dm_demo/README.md"
+    },
+    "funding": {
+        "type": "individual",
+        "url": "https://etherpad.org/"
+    },
+    "dependencies": {
+        ""
+    },
+    "peerDependencies": {
+        "ep_etherpad_lite": ">=1.8.6"
+    },
+    "devDependencies": {
+        "eslint": "^7.18.0",
+        "eslint-config-etherpad": "^1.0.24",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-mocha": "^8.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prefer-arrow": "^1.2.3",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "extends": "etherpad/plugin"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "engines": {
+        "node": ">= 10.13.0"
+    }
+}
